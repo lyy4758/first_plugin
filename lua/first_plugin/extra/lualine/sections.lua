@@ -63,10 +63,10 @@ return function()
 			{ "filetype" },
 		},
 		lualine_z = {
-			{
-				"filetype",
-				icons_enabled = false,
-			},
+			-- {
+			-- 	"filetype",
+			-- 	icons_enabled = false,
+			-- },
 			{
 				"decorate",
 				fmt = function(content, context)
