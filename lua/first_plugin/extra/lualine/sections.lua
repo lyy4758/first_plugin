@@ -62,6 +62,9 @@ return function()
 			{ "encoding" },
 			{ "filetype" },
 		},
+    lualine_y ={
+      {"location"}
+    },
 		lualine_z = {
 			-- {
 			-- 	"filetype",
