@@ -2,9 +2,9 @@
 return function()
 	return function()
 		return {
-			{ text = "  ", bg = "#252526", fg = "#FFFFFF" },
-			{ text = "  ", bg = "#252526", fg = "#FFFFFF" },
-			{ text = "  ", bg = "#252526", fg = "#FFFFFF" },
+			{ text = "  ", bg = "#000000", fg = "#FFFFFF" },
+			{ text = "  ", bg = "#000000", fg = "#FFFFFF" },
+			{ text = "  ", bg = "#000000", fg = "#FFFFFF" },
 		}
 	end
 end
