@@ -24,6 +24,9 @@ function M.setup(opts)
 	-- vim.print(conf)
 end
 
+function M.get_lualine_sections()
+    return require("first_plugin.extra.lualine.sections")()
+end
 function M.get_bufferline_right()
 	vim.notify("get_bufferline_right", "info")
 	return require("first_plugin.extra.bufferline.right")()
