@@ -15,8 +15,8 @@ local component_colors = {
 	c = { fg = colors.aquamarine, bg = util.get_normal_bg_color() },
 
 	x = { fg = colors.white, bg = util.get_normal_bg_color() },
-	y = { fg = colors.black, bg = colors.deep_grey},
-	z = { fg = colors.black, bg = colors.dark_slate_gray},
+	y = { fg = colors.white, bg = colors.dark_slate_gray},
+	z = { fg = colors.black, bg = colors.deep_grey},
 }
 
 return {
