@@ -12,11 +12,11 @@ local colors = require("first_plugin.colors").colors
 local component_colors = {
 	a = { fg = colors.white, bg = colors.deep_green },
 	b = { fg = colors.white, bg = colors.olive },
-	c = { fg = colors.deep_cyan, bg = util.get_normal_bg_color() },
+	c = { fg = colors.aquamarine, bg = util.get_normal_bg_color() },
 
 	x = { fg = colors.white, bg = util.get_normal_bg_color() },
-	y = { fg = colors.white, bg = colors.dark_slate_gray },
-	z = { fg = colors.black, bg = colors.plum},
+	y = { fg = colors.black, bg = colors.deep_grey},
+	z = { fg = colors.black, bg = colors.dark_slate_gray},
 }
 
 return {
