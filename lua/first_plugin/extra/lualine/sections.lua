@@ -13,7 +13,7 @@ return function()
 			{
 				"mode",
 				fmt = function(content, context)
-					return ("- %s -"):format(content)
+					return ("%s"):format(content)
 				end,
 			},
 		},

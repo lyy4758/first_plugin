@@ -1,5 +1,5 @@
 local M = {}
-M= {
+M.colors = {
 	white = "#FFFFFF",
 	black = "#000000",
 	red = "#FF0000",
@@ -49,7 +49,7 @@ M= {
 	mint_cream = "#F5FFFA",
 	honeydew = "#F0FFF0",
 	deep_green = "#2C896B",
-	dark_blue = #000080,
+	dark_blue = "#000080",
 	deep_blue = "#00008B",
 	deep_red = "#8B0000",
 	deep_purple = "#800080",
