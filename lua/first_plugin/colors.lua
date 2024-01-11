@@ -1,5 +1,5 @@
 local M = {}
-M.colors = {
+M= {
 	white = "#FFFFFF",
 	black = "#000000",
 	red = "#FF0000",
