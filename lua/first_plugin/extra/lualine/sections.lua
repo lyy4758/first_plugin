@@ -30,7 +30,6 @@ return function()
 		},
     lualine_y ={
 			{ "branch", icon = "" },
-      {"location"}
     },
 		lualine_z = {
 			-- {
