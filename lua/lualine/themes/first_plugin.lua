@@ -8,11 +8,13 @@ local util = require("first_plugin.util.util")
 -- colors.background_LawnGreen = "#7CFC00"
 -- colors.background_LightGreen = "#90EE90"
 -- colors.background_Purple = "#800080"
+-- #00FF04
 local colors = require("first_plugin.colors").colors
 local component_colors = {
 	a = { fg = colors.white, bg = colors.deep_green },
 	b = { fg = colors.white, bg = colors.olive },
-	c = { fg = colors.sandy_brown, bg = util.get_normal_bg_color() },
+	-- c = { fg = colors.sandy_brown, bg = util.get_normal_bg_color() },
+	c = { fg = colors.lime_green, bg = util.get_normal_bg_color() },
 
 	x = { fg = colors.white, bg = util.get_normal_bg_color() },
 	y = { fg = colors.white, bg = colors.dark_slate_gray},
