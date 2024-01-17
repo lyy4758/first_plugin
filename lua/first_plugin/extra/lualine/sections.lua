@@ -18,6 +18,7 @@ return function()
 			},
 		},
 		lualine_c = {
+			{ "diagnostics", sources = { "nvim_diagnostic" } },
 			{
 				"filename",
 				symbols = {
@@ -28,9 +29,9 @@ return function()
 				},
 			},
 		},
-    lualine_y ={
+		lualine_y = {
 			{ "branch", icon = "" },
-    },
+		},
 		lualine_z = {
 			-- {
 			-- 	"filetype",
