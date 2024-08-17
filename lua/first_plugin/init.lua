@@ -14,7 +14,7 @@ end
 test.begin()
 M.info = "this is my first neovim plugin"
 function M.setup(opts)
-	vim.notify(M.info, "info")
+	-- vim.notify(M.info, "info")
 	-- vim.print(default_config)
 	-- vim.print(opts)
 
@@ -28,7 +28,7 @@ function M.get_lualine_sections()
     return require("first_plugin.extra.lualine.sections")()
 end
 function M.get_bufferline_right()
-	vim.notify("get_bufferline_right", "info")
+	-- vim.notify("get_bufferline_right", "info")
 	return require("first_plugin.extra.bufferline.right")()
 end
 return M
